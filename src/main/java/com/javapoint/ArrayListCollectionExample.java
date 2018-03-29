@@ -54,3 +54,24 @@ public class ArrayListCollectionExample {
 	
 	
 }
+
+/*********************** OUTPUT **************************
+
+
+Array size:6
+contents of Array:[C, A1, A, B, D, F]
+Array size:4
+contents of Array:[C, A1, B, F]
+C
+A1
+B
+F
+printing from Array
+C
+A1
+B
+F
+
+***************************************************/
+
+
