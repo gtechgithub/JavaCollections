@@ -47,3 +47,18 @@ public class HashTableExample {
 		System.out.println("John Doe new balance:" + balance.get("John Doe"));
 	}
 }
+
+/*************************************************************
+
+Printing all values 
+------------------
+Tod Hall ===>99.22
+Ralph Smith ===>-19.08
+John Doe ===>3434.34
+Jane Baker ===>1378.0
+Tom Smith ===>123.22
+
+------------------
+John Doe new balance:4434.34
+
+******************************************************************/
