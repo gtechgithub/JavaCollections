@@ -38,3 +38,21 @@ public class UserDefinedCollections {
 		}
 	}
 }
+
+/*********** OUTPUT ********************
+
+name1
+ city1
+ street1
+ pincode1
+name2
+ city2
+ street2
+ pincode2
+
+
+
+
+
+
+****************************************/
