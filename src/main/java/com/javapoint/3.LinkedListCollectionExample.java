@@ -39,3 +39,20 @@ public class LinkedListCollectionExample {
 	
 	
 }
+
+
+/***************************************** OUTPUT**************************
+
+
+printing all contents:[Z, I, F, B, D, E, C, A]
+printing all contents after deletion:[I, F, E, C, A]
+getting values for LinkList.get(1):F
+getting values for LinkList.get(1) after setting:D2
+
+****************************************************************************/
+
+
+
+
+
+
