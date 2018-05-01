@@ -43,3 +43,24 @@ public class GenericsVectorExample {
 	}
 	
 }
+
+/******************* OUTPUT ************************
+
+
+Initial size: 0
+Initial capacity: 3
+Capacity after five additions: 5
+Current capacity: 7
+Element at position zero: 1
+First Element: 1
+Last Element: 6
+
+Elements in vector:
+1
+2
+3
+4
+5
+6
+
+*******************************************************/
