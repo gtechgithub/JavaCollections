@@ -3,6 +3,17 @@ package com.javapoint;
 import java.util.Enumeration;
 import java.util.Hashtable;
 
+/*******************
+
+Enumeration is similar to the Iterator during earlier days, it was superceded by Iterator nowadays
+basically it was used during vector, where as it is depreciated nowadays.
+
+
+
+
+
+********************/
+
 public class HashTableExample {
 
 	public static void main(String arg[]) {
