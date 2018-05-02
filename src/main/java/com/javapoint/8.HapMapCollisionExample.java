@@ -104,3 +104,16 @@ public class HapMapCollisionExample {
 	}
 	
 }
+
+
+/************************************ OUTPUT ******************************
+
+getting non collision values for (new Person(3,"name3" ),3):3
+
+getting collision values for (new Person(1,"name1" ),1):1
+
+
+
+
+
+*************************************************************************/
