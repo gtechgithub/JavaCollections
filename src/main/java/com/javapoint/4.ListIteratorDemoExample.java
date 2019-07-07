@@ -2,9 +2,7 @@ package com.javapoint;
 
 import java.util.ArrayList;
 import java.util.ListIterator;
-
 public class ListIteratorDemoExample {
-
 	public static void main (String args[]) {
 		ArrayList<String> al = new ArrayList<String>();
 		
@@ -17,15 +15,43 @@ public class ListIteratorDemoExample {
 		
 		// Modify objects being iterated.
 		ListIterator<String> iter = al.listIterator();
+		System.out.println("printing values before change");
 		while (iter.hasNext()) {
 			String element = iter.next();
+			System.out.println(element);
 			iter.set(element + "+");
 		}
 		
+		System.out.println("\n\nprinting values after change");
+		
 		// printing values
 		while (iter.hasPrevious()) {
-			System.out.println("printing values:" + iter.previous());
+			System.out.println(iter.previous());
 		}				
 		
 	}
 }
+
+
+/************************ output  **********************
+
+
+printing values before change
+C
+A
+E
+B
+D
+F
+
+
+printing values after change
+F+
+D+
+B+
+E+
+A+
+C+
+
+
+********************************************************/
