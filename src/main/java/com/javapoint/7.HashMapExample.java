@@ -16,9 +16,9 @@ public class HashMapExample {
 		hm.put("Ralph Smith", new Double(-19.08));
 		
 		//get a set of the entries
-		Set<Map.Entry<String, Double>> set = hm.entrySet();
+		Set<Map.Entry<String, Double>> setEntries = hm.entrySet();
 	
-		for(Map.Entry<String, Double> me:set) {
+		for(Map.Entry<String, Double> me : setEntries) {
 			System.out.print(me.getKey() + ": ");
 			System.out.println(me.getValue());
 		}
