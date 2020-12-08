@@ -1,0 +1,16 @@
+Difference between comparator and comparable
+
+
+Comparable:
+A comparable object is capable of comparing object with another object using compareTo method, however it must implement the 
+java.lang.comparable interface.
+
+
+
+Comparator
+
+Unlike comparable , comparator is external to the element object it is a separate class 
+
+a) create a object class
+b) create a comparator class implementing comparator
+c) then use collection.sort(comparator class)
